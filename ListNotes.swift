@@ -2,7 +2,7 @@
 //  ListNotes.swift
 //  NotesApp Watch App
 //
-//  Created by Fernando Labastida on 08/10/22.
+//  Created by Badillo Aguilar Diego on 08/10/22.
 //
 
 import SwiftUI
