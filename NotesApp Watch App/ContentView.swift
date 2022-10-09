@@ -14,8 +14,8 @@ struct ContentView: View {
                 NavigationLink("Agregar Nota", destination: AddNote())
                 NavigationLink("Listar Notas", destination: ListNotes())
             }
+            .navigationTitle("Notes App")
         }
-        .navigationTitle("Notes App")
     }
 }
 

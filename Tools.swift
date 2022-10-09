@@ -26,6 +26,5 @@ class Tools{
         }
         
         return savedData.map{try! JSONDecoder().decode(Note.self, from: $0)}
-        
     }
 }

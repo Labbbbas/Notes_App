@@ -17,7 +17,7 @@ struct AddNote: View {
         
         VStack{
             TextField("Nota", text: $text)
-            Button("Agregar nota"){
+            Button("+"){
                 guard text.isEmpty == false else{
                     return
                 }
